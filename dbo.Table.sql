@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [FileData] VARBINARY(MAX) NOT NULL, 
+    [FileName] NVARCHAR(200) NOT NULL, 
+    [FileDescription] NVARCHAR(200) NOT NULL
+)
